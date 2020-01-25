@@ -11,4 +11,11 @@ jobs:
     steps:
       - name: Hello world
         run: echo こんにちは、世界。
-        id: hello
+      - name: お宝つくるよ
+        run: echo こんにちは、世界だよ。 > hello_world.txt
+      - name: お宝隠すよ
+        uses: actions/upload-artifact@v1
+        with:
+          name: hello_world.txt
+          path: hello_world.txt
+
