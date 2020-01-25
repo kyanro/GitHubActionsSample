@@ -1,0 +1,2 @@
+# GitHubActionsSample
+GitHubActionsで色々やってみるだけのリポジトリ
